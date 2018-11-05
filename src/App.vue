@@ -51,7 +51,7 @@ export default {
 }
 
 body {
-  background: url('./assets/background.jpg');
+  background: url('./assets/background.jpg') no-repeat;
   background-size: cover;
 }
 </style>
