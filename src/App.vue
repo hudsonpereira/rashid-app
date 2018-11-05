@@ -18,6 +18,14 @@
             <PartyLevel />
           </div>
         </div>
+
+        <div class="card bg-dark light mt-2">
+          <!-- <div class="card-header">Party Level Calculator</div> -->
+          <div class="card-body">
+
+            <RashidLocation />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -31,12 +39,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import PartyLevel from './components/PartyLevel/PartyLevel.vue'
+import RashidLocation from './components/RashidLocation.vue';
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    PartyLevel
+    PartyLevel,
+    RashidLocation
   }
 }
 </script>
