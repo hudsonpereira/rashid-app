@@ -5,8 +5,9 @@
     <div class="row">
       <div class="col-md-9">
         <div class="card bg-dark light">
+          <div class="card-header">Party Maker</div>
           <div class="card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae modi nihil quisquam quasi consequatur, autem repellat quaerat officia dolorem id? Sequi, laboriosam iusto non magnam expedita vitae. Vitae, quam eum fugiat numquam accusamus nisi odit quo. Cumque assumenda, qui eligendi pariatur rem adipisci inventore voluptates, quo beatae obcaecati architecto officia eius, nisi a. Ratione fugit aut placeat veniam dolores odio ut iusto perspiciatis praesentium fuga, mollitia enim corporis facere nesciunt unde reprehenderit repellat amet, voluptate sequi repellendus, quidem recusandae. Minima, culpa. Ullam aliquam fugit perferendis ea doloribus, nihil deserunt dolores delectus quas corporis sed eligendi ipsam aperiam quam dolorem molestias?
+            <PartyMaker />
           </div>
         </div>
       </div>
@@ -39,6 +40,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import PartyLevel from './components/PartyLevel/PartyLevel.vue'
+import PartyMaker from './components/PartyMaker/PartyMaker.vue'
 import RashidLocation from './components/RashidLocation.vue';
 
 export default {
@@ -46,7 +48,8 @@ export default {
   components: {
     HelloWorld,
     PartyLevel,
-    RashidLocation
+    RashidLocation,
+    PartyMaker
   }
 }
 </script>
